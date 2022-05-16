@@ -33,6 +33,7 @@ A curated list of AWESOME blogs, videos, tutorials, code, tools, scripts... anyt
 [Back To Top](#Table-Of-Contents)
 
 - [Address Tangible Risks With The Govern Methodology Of The Cloud Adoption Framework For Azure](https://docs.microsoft.com/en-us/learn/modules/cloud-adoption-framework-govern/)
+- [Azure Kubernetes Services Governance with Azure Policy](https://docs.microsoft.com/en-us/learn/modules/aks-governance-azure-policy/)
 - [Build Cloud Governance Strategy On Azure](https://docs.microsoft.com/en-us/learn/modules/build-cloud-governance-strategy-azure/)
 - [Configure Azure Policy](https://docs.microsoft.com/en-us/learn/modules/configure-azure-policy/)
 - [Design An Enterprise Governance Strategy](https://docs.microsoft.com/en-us/learn/modules/enterprise-governance/)
@@ -60,6 +61,7 @@ A curated list of AWESOME blogs, videos, tutorials, code, tools, scripts... anyt
 [Back To Top](#Table-Of-Contents)
 
 - [Azure Policy and Kubernetes](https://youtu.be/Hv3K8zJSbow)
+- [Azure Policy on Azure Kubernetes Service](https://youtu.be/mfFdH7v3Vl8)
 - [AzureFunBytes - Intro to Azure Policy](https://youtu.be/2ebTY4Bzah0)
 - [Azure Governance & Deployments Quarterly Customer Panel December 2021](https://youtu.be/oYC5Ns7kLCY)
 - [Azure Governance and Deployments Quarterly Customer Panel Feb 2021](https://www.youtube.com/watch?v=ONKn9XMPZCs)
@@ -70,6 +72,7 @@ A curated list of AWESOME blogs, videos, tutorials, code, tools, scripts... anyt
 - [Deep dive into Implementing governance at scale through Azure Policy](https://youtu.be/d6c1nfoySLI)
 - [Enforcement with Azure Policy](https://www.youtube.com/watch?v=yQvFeuPoHe0)
 - [Getting started with Azure Policy](https://www.youtube.com/watch?v=b0Sp6V0VJas)
+- [Global Azure - Notes from the field: Policy-driven Governance](https://youtu.be/Ukqux_TN8uw)
 - [Govern Azure Arc-enabled K8S Clusters with Azure Policy | KubeCon NA 2021](https://youtu.be/l1ve70xD06Y)
 - [On Prem To The Cloud: Everything As Code](https://youtu.be/io_dX5I-6xM)
 - [Performing Remediation on Resources with Azure Policy](https://www.youtube.com/watch?v=c1d05IYBrTk)
@@ -95,6 +98,7 @@ A curated list of AWESOME blogs, videos, tutorials, code, tools, scripts... anyt
 - [Eliminate Password-Based Attacks on Azure Linux VMs](https://techcommunity.microsoft.com/t5/microsoft-defender-for-cloud/eliminate-password-based-attacks-on-azure-linux-vms/ba-p/2271139)
 - [Enterprise-Scale and Azure Policy for policy-driven governance](https://techcommunity.microsoft.com/t5/azure-architecture-blog/enterprise-scale-and-azure-policy-for-policy-driven-governance/ba-p/1614060)
 - [Deploy Monitoring Agent Extension to Azure Arc Linux and Windows servers using Azure Policy](https://azurearcjumpstart.io/azure_arc_jumpstart/azure_arc_servers/day2/arc_policies_mma/)
+- [Enable HTTPS setting on Azure App service using Azure policy](https://techcommunity.microsoft.com/t5/azure-paas-blog/enable-https-setting-on-azure-app-service-using-azure-policy/ba-p/3286603)
 - [Enforcing Policy for Zero Trust with Azure Policy](https://devblogs.microsoft.com/azuregov/enforcing-policy-for-zero-trust-with-azure-policy-4-of-6/)
 - [Field Notes: Remediating Resources Using User-Assigned Managed Identity with Azure Policy](https://techcommunity.microsoft.com/t5/security-compliance-and-identity/field-notes-remediating-resources-using-user-assigned-managed/ba-p/3258700)
 - [GA: Policy add-on for Azure Kubernetes Service](https://azure.microsoft.com/en-au/updates/ga-policy-addon-for-azure-kubernetes-service/)
