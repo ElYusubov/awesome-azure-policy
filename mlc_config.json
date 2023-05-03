@@ -11,6 +11,15 @@
     },
     {
       "pattern": "https://www.darwinsec.com/post/increasing-pci-compliance-in-your-azure-environment-by-using-custom-initiatives"
+    },
+    {
+      "pattern": "https://azsec.azurewebsites.net"
+    },
+    {
+      "pattern": "https://aka.ms/cmmc/alzmap"
+    },
+    {
+      "pattern": "https://adinermie.com"
     }
   ],
   "timeout": "20s",
