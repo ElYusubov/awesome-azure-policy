@@ -1,36 +1,28 @@
-# AWESOME-Azure-Policy
-[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)  [![Markdown Link Checker](https://github.com/globalbao/awesome-azure-policy/actions/workflows/markdown-link-checker.yml/badge.svg)](https://github.com/globalbao/awesome-azure-policy/actions/workflows/markdown-link-checker.yml)
+# Awesome Azure Policy [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+
+A curated list of AWESOME blogs, videos, tutorials, code, tools, scripts. Anything which can help you learn Azure Policy and quickly get started with designing, planning, and implementing governance controls to your resources.
+
+> Community contributions are welcome! Check out the [contribution guide](./CONTRIBUTING.md) today and submit a **pull request**!
 
 [![Awesome Azure Policy](./Awesome-Azure-Policy-Logo.svg)](https://github.com/jesseloudon)
 
-A curated list of AWESOME blogs, videos, tutorials, code, tools, scripts... anything which can help you learn Azure Policy and quickly get started with designing, planning, and implementing governance controls to your resources.
+## Contents
 
-> Community contributions are most welcome! Check out our [contribution guide](./CONTRIBUTING.md) today and submit a **pull request** with any adds/removes/changes to content!
+- [Microsoft Learn](#Microsoft-Learn)
+- [Microsoft Docs](#Microsoft-Docs)
+- [Microsoft Videos](#Microsoft-Videos)
+- [Microsoft Announcements and Articles](#Microsoft-Announcements-and-Articles)
+- [Microsoft Repositories and Tools](#Microsoft-Repositories-and-Tools)
+- [Microsoft Forums and Feedback](#Microsoft-Forums-and-Feedback)
+- [Community Videos](#Community-Videos)
+- [Community Podcasts](#Community-Podcasts)
+- [Community Books](#Community-Books)
+- [Community Articles](#Community-Articles)
+- [Community Tools](#Community-Tools)
+- [Community Repositories](#Community-Repositories)
+- [Community Forums](#Community-Forums)
 
-## Table Of Contents
-
-- [Official](#Official)
-   - [Learn](#Official-Learn)
-   - [Docs](#Official-Docs)
-   - [Videos](#Official-Videos)
-   - [Announcements and Articles](#Official-Announcements-and-Articles)
-   - [Repositories and Tools](#Official-Repositories-and-Tools)
-   - [Forums and Feedback](#Official-Forums-and-Feedback)
-- [Community](#Community)
-   - [Videos](#Community-Videos)
-   - [Podcasts](#Community-Podcasts)
-   - [Books](#Community-Books)
-   - [Articles](#Community-Articles)
-   - [Tools](#Community-Tools)
-   - [Repositories](#Community-Repositories)
-   - [Forums](#Community-Forums)
-
-## Official
-
-> Links below are from official Microsoft sources, websites, and channels.
-
-### Official Learn
-[Back To Top](#Table-Of-Contents)
+### Microsoft Learn
 
 - [Address Tangible Risks With The Govern Methodology Of The Cloud Adoption Framework For Azure](https://docs.microsoft.com/en-us/learn/modules/cloud-adoption-framework-govern/?WT.mc_id=AZ-MVP-5004598)
 - [Azure Kubernetes Services Governance with Azure Policy](https://docs.microsoft.com/en-us/learn/modules/aks-governance-azure-policy/?WT.mc_id=AZ-MVP-5004598)
@@ -41,8 +33,7 @@ A curated list of AWESOME blogs, videos, tutorials, code, tools, scripts... anyt
 - [Intro to Azure Policy](https://docs.microsoft.com/en-us/learn/modules/intro-to-azure-policy/?WT.mc_id=AZ-MVP-5004598)
 - [Manage security operations in Azure](https://docs.microsoft.com/en-us/learn/paths/manage-security-operations/?WT.mc_id=AZ-MVP-5004598)
 
-### Official Docs
-[Back To Top](#Table-Of-Contents)
+### Microsoft Docs
 
 - [Adopt Policy-Driven Guardrails](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/ready/enterprise-scale/dine-guidance?WT.mc_id=AZ-MVP-5004598)
 - [ARM Templates - Azure Policy Assignments](https://docs.microsoft.com/en-us/azure/templates/microsoft.authorization/policyassignments?tabs=bicep?WT.mc_id=AZ-MVP-5004598)
@@ -58,8 +49,7 @@ A curated list of AWESOME blogs, videos, tutorials, code, tools, scripts... anyt
 - [Understand Azure Policy for Kubernetes clusters](https://docs.microsoft.com/en-us/azure/governance/policy/concepts/policy-for-kubernetes?WT.mc_id=AZ-MVP-5004598)
 - [Use Azure Policy extension for Visual Studio Code](https://docs.microsoft.com/en-us/azure/governance/policy/how-to/extension-for-vscode?WT.mc_id=AZ-MVP-5004598)
 
-### Official Videos
-[Back To Top](#Table-Of-Contents)
+### Microsoft Videos
 
 - [Azure Governance & Deployments Quarterly Customer Panel December 2021](https://youtu.be/oYC5Ns7kLCY)
 - [Azure Governance and Deployments Quarterly Customer Panel Feb 2021](https://www.youtube.com/watch?v=ONKn9XMPZCs)
@@ -68,6 +58,7 @@ A curated list of AWESOME blogs, videos, tutorials, code, tools, scripts... anyt
 - [Azure Governance for ISVs, Session 02: Policies, Initiatives, and Blueprints](https://youtu.be/SMvbFBdWi5U)
 - [Azure Policy and Kubernetes](https://youtu.be/Hv3K8zJSbow)
 - [Azure Policy on Azure Kubernetes Service](https://youtu.be/mfFdH7v3Vl8)
+- [Azure Takeoff Show - Azure Policies and Locks](https://youtu.be/XqCcGZFbuCU?si=n9ma6cQpwNUO_CE7)
 - [AzureFunBytes - Intro to Azure Policy](https://youtu.be/2ebTY4Bzah0)
 - [Compliance with Azure Policy](https://www.youtube.com/watch?v=OZh_4gjgvGU)
 - [Deep dive into Implementing governance at scale through Azure Policy](https://youtu.be/d6c1nfoySLI)
@@ -80,8 +71,7 @@ A curated list of AWESOME blogs, videos, tutorials, code, tools, scripts... anyt
 - [Using Management Group with Azure Policy](https://youtu.be/S_-JenO43G8)
 - [What is Azure Policy](https://www.youtube.com/watch?v=obWeyLHWQIY)
 
-### Official Announcements and Articles
-[Back To Top](#Table-Of-Contents)
+### Microsoft Announcements and Articles
 
 - [7 steps to author, develop, and deploy custom recommendations for Windows using Guest Configuration](https://techcommunity.microsoft.com/t5/microsoft-defender-for-cloud/7-steps-to-author-develop-and-deploy-custom-recommendations-for/ba-p/3166026?WT.mc_id=AZ-MVP-5004598)
 - [Aligning CMMC Controls with your Azure Landing Zone](https://techcommunity.microsoft.com/t5/public-sector-blog/aligning-cmmc-controls-with-your-azure-landing-zone/ba-p/2736511?WT.mc_id=AZ-MVP-5004598)
@@ -110,6 +100,7 @@ A curated list of AWESOME blogs, videos, tutorials, code, tools, scripts... anyt
 - [Deploy Monitoring Agent Extension to Azure Arc Linux and Windows servers using Azure Policy](https://azurearcjumpstart.io/azure_arc_jumpstart/azure_arc_servers/day2/arc_policies_mma/?WT.mc_id=AZ-MVP-5004598)
 - [Eliminate Password-Based Attacks on Azure Linux VMs](https://techcommunity.microsoft.com/t5/microsoft-defender-for-cloud/eliminate-password-based-attacks-on-azure-linux-vms/ba-p/2271139?WT.mc_id=AZ-MVP-5004598)
 - [Enable HTTPS setting on Azure App service using Azure policy](https://techcommunity.microsoft.com/t5/azure-paas-blog/enable-https-setting-on-azure-app-service-using-azure-policy/ba-p/3286603?WT.mc_id=AZ-MVP-5004598)
+- [Enforcing and Managing Azure DDoS Protection with Azure Policy](https://techcommunity.microsoft.com/t5/azure-network-security-blog/enforcing-and-managing-azure-ddos-protection-with-azure-policy/ba-p/3933172?WT.mc_id=AZ-MVP-5004598)
 - [Enforcing Policy for Zero Trust with Azure Policy](https://devblogs.microsoft.com/azuregov/enforcing-policy-for-zero-trust-with-azure-policy-4-of-6/?WT.mc_id=AZ-MVP-5004598)
 - [Enterprise-Scale and Azure Policy for policy-driven governance](https://techcommunity.microsoft.com/t5/azure-architecture-blog/enterprise-scale-and-azure-policy-for-policy-driven-governance/ba-p/1614060?WT.mc_id=AZ-MVP-5004598)
 - [Field Notes: Remediating Resources Using User-Assigned Managed Identity with Azure Policy](https://techcommunity.microsoft.com/t5/security-compliance-and-identity/field-notes-remediating-resources-using-user-assigned-managed/ba-p/3258700?WT.mc_id=AZ-MVP-5004598)
@@ -128,8 +119,10 @@ A curated list of AWESOME blogs, videos, tutorials, code, tools, scripts... anyt
 - [How to use PowerShell & Azure Policy to check settings inside a VM](https://techcommunity.microsoft.com/t5/itops-talk-blog/how-to-use-powershell-amp-azure-policy-to-check-settings-inside/ba-p/749241?WT.mc_id=AZ-MVP-5004598)
 - [Implementing Azure Policy using Terraform](https://techcommunity.microsoft.com/t5/azure-paas-blog/implementing-azure-policy-using-terraform/ba-p/1423775?WT.mc_id=AZ-MVP-5004598)
 - [Important change released for Guest Configuration audit policies](https://techcommunity.microsoft.com/t5/azure-governance-and-management/important-change-released-for-guest-configuration-audit-policies/ba-p/1655316?WT.mc_id=AZ-MVP-5004598)
+- [Infrastructure as Code Testing with Azure Policy](https://techcommunity.microsoft.com/t5/core-infrastructure-and-security/infrastructure-as-code-testing-with-azure-policy/ba-p/3921765?WT.mc_id=AZ-MVP-5004598)
 - [Managing Security Center at scale using ARM templates and Azure Policy](https://techcommunity.microsoft.com/t5/microsoft-defender-for-cloud/managing-security-center-at-scale-using-arm-templates-and-azure/ba-p/327761?WT.mc_id=AZ-MVP-5004598)
 - [Microsoft cloud security benchmark: Azure compute benchmark is now aligned with CIS!](https://techcommunity.microsoft.com/t5/microsoft-defender-for-cloud/microsoft-cloud-security-benchmark-azure-compute-benchmark-is/ba-p/3680141?WT.mc_id=AZ-MVP-5004598)
+- [Monitoring Azure Policy compliance across your Azure Managed Application deployments](https://techcommunity.microsoft.com/t5/apps-on-azure-blog/monitoring-azure-policy-compliance-across-your-azure-managed/ba-p/3922113?WT.mc_id=AZ-MVP-5004598)
 - [More resource policy aliases](https://azure.microsoft.com/en-au/blog/more-resource-policy-aliases/?WT.mc_id=AZ-MVP-5004598)
 - [New and updated regulatory compliance policy initiatives for NIST, FedRAMP, DoD in Azure, Azure Government](https://devblogs.microsoft.com/azuregov/new-and-updated-regulatory-compliance-policy-initiatives-for-nist-fedramp-dod-in-azure-azure-government/?WT.mc_id=AZ-MVP-5004598)
 - [On Prem To the Cloud: Everything As Code](https://devblogs.microsoft.com/devops/on-prem-to-the-cloud-everything-as-code-ep-4/?WT.mc_id=AZ-MVP-5004598)
@@ -137,17 +130,18 @@ A curated list of AWESOME blogs, videos, tutorials, code, tools, scripts... anyt
 - [Policy Distribution Dashboard for Microsoft Defender for Cloud](https://techcommunity.microsoft.com/t5/microsoft-defender-for-cloud/policy-distribution-dashboard-for-microsoft-defender-for-cloud/ba-p/3264712?WT.mc_id=AZ-MVP-5004598)
 - [Portal Preview of Azure Resource Policy](https://azure.microsoft.com/en-au/blog/portal-preview-of-azure-resource-policy-2/?WT.mc_id=AZ-MVP-5004598)
 - [Public preview of new Azure Policy features](https://azure.microsoft.com/en-au/blog/recap-on-new-azure-policy-features-in-ignite/?WT.mc_id=AZ-MVP-5004598)
+- [Remediate your Azure Kubernetes Service clusters at scale using Azure Policy's mutation support!](https://techcommunity.microsoft.com/t5/azure-governance-and-management/remediate-your-azure-kubernetes-service-clusters-at-scale-using/ba-p/3974506?WT.mc_id=AZ-MVP-5004598)
 - [Software Installation Using Azure Policy State Change Events](https://techcommunity.microsoft.com/t5/core-infrastructure-and-security/software-installation-using-azure-policy-state-change-events/ba-p/2420515?WT.mc_id=AZ-MVP-5004598)
 - [Software Installation Using Machine Configuration and Azure Policy](https://techcommunity.microsoft.com/t5/core-infrastructure-and-security/software-installation-using-machine-configuration-and-azure/ba-p/3695636?WT.mc_id=AZ-MVP-5004598)
 - [The impact of conflicting Azure Policies](https://techcommunity.microsoft.com/t5/itops-talk-blog/the-impact-of-conflicting-azure-policies/ba-p/2227063?WT.mc_id=AZ-MVP-5004598)
 - [Trigger Condition and Evaluation Workflow of Azure Policy](https://techcommunity.microsoft.com/t5/azure-paas-blog/trigger-condition-and-evaluation-workflow-of-azure-policy/ba-p/3436597?WT.mc_id=AZ-MVP-5004598)
 - [Use Azure Policy on an Azure-Arc enabled Kubernetes cluster for applying ingress/egress rules with Calico network policy](https://azurearcjumpstart.io/azure_arc_jumpstart/azure_arc_k8s/day2/multi_distributions/calico/?WT.mc_id=AZ-MVP-5004598)
+- [Use PowerShell to Remediate Non-Compliant Policy Definitions](https://techcommunity.microsoft.com/t5/core-infrastructure-and-security/use-powershell-to-remediate-non-compliant-policy-definitions/ba-p/3878321?WT.mc_id=AZ-MVP-5004598)
 - [Using Azure Policy to onboard multiple SQL Servers at scale to Azure Arc-enabled SQL Server - Part 1](https://techcommunity.microsoft.com/t5/azure-arc-blog/using-azure-policy-to-onboard-multiple-sql-servers-at-scale-to/ba-p/3788886?WT.mc_id=AZ-MVP-5004598)
 - [Using GitHub for Azure Policy as Code](https://techcommunity.microsoft.com/t5/azure-governance-and-management/using-github-for-azure-policy-as-code/ba-p/1886464?WT.mc_id=AZ-MVP-5004598)
 - [What's the difference between Group Policy and Azure Policy?](https://techcommunity.microsoft.com/t5/itops-talk-blog/what-s-the-difference-between-group-policy-and-azure-policy/ba-p/1016312?WT.mc_id=AZ-MVP-5004598)
 
-### Official Repositories and Tools
-[Back To Top](#Table-Of-Contents)
+### Microsoft Repositories and Tools
 
 - [azure cyber security maturity model (CMMC) policy mapping](https://aka.ms/cmmc/alzmap)
 - [azure policy visual studio code extension](https://marketplace.visualstudio.com/items?itemname=azurepolicy.azurepolicyextension)
@@ -157,20 +151,15 @@ A curated list of AWESOME blogs, videos, tutorials, code, tools, scripts... anyt
 - [azure/manage-azure-policy](https://github.com/azure/manage-azure-policy)
 - [azure/policy-compliance-scan](https://github.com/azure/policy-compliance-scan)
 - [azure/regulatory-compliance-initiatives](https://github.com/Azure/regulatory-compliance-initiatives)
+- [azure-samples/aca-azure-policy](https://github.com/Azure-Samples/aca-azure-policy)
 - [microsoft/azurepolicytestframework](https://github.com/microsoft/AzurePolicyTestFramework)
 
-### Official Forums and Feedback
-[Back To Top](#Table-Of-Contents)
+### Microsoft Forums and Feedback
 
 - [Azure Governance Ideas](https://feedback.azure.com/d365community/forum/675ae472-f324-ec11-b6e6-000d3a4f0da0)
 - [Microsoft Q&A for Azure Policy](https://docs.microsoft.com/en-us/answers/topics/azure-policy.html)
 
-## Community
-
-> Links below are from community sources, websites, and channels.
-
 ### Community Videos
-[Back To Top](#Table-Of-Contents)
 
 - [A summary of the Diagnostic Settings](https://www.youtube.com/watch?v=zAxvFH9EsGY)
 - [Admission Control on AKS with Azure Policy](https://youtu.be/OJGmwCMsUNE)
@@ -188,17 +177,25 @@ A curated list of AWESOME blogs, videos, tutorials, code, tools, scripts... anyt
 - [Azure Policy Remediation Deep Dive](https://youtu.be/fhIn_kHz4hk)
 - [Azure Policy](https://youtu.be/1NzWYIsKUl4)
 - [Azure Spring Clean: Some points to remember about Azure Governance](https://youtu.be/lOHK_k6w4e4)
+- [Azure Update Manager with Azure Policies](https://www.youtube.com/watch?v=Da1EsoAzUoY)
 - [Block Deletes Using the New DenyAction Azure Policy Effect](https://youtu.be/ZVshBqY8kts)
 - [Build Your Tagging Strategy with Azure Policy and Automation](https://youtu.be/4ebXt0iMiEU)
 - [Custom Policy for Azure Governance - How to create custom Azure Policy from Scratch](https://youtu.be/n-jL_xe9858)
 - [Detailed look at Azure Policy Exemption Permission Requirements](https://youtu.be/clAu7VqpacA)
+- [DevOps | Azure Policy Tutorial | Terraform | GitHub | Compliance enforcement in Azure Subscription](https://youtu.be/MQ3X7qDCddU?si=kSuv2U6Rcj791aNw)
 - [Festive Tech Calendar: Day 1 - Azure Governance](https://youtu.be/GK_8FAHwoe8)
 - [Festive Tech Calendar: Day 6 - Azure Governance: Azure customized Policies](https://www.youtube.com/watch?v=rQXZWIvW1Ww)
 - [Flexing Your Security Governance with Azure Policy As Code](https://youtu.be/-KSLh2I9e1U)
+- [Functionality and Usage of Azure Policy - AZ-900 Certification Course](https://youtu.be/z7WMqHE3R8g?si=Zp7bpzNSzD-wBewt)
 - [Get Visibility Into Your Environment With Azure Governance Visualizer](https://youtu.be/hZXvF5oypLE)
+- [Getting to Green with Azure Policy](https://youtu.be/P3PRXf-IilI?si=HWAq3sWCjpB7TpDn)
 - [GitOps with Azure Arc Kubernetes via Azure Policy](https://youtu.be/AE5Io3qtABs)
 - [Global Azure: Policy as Code with Bicep for Enterprise Scale](https://youtu.be/qpnMJXw6pIg)
+- [Help Everyone Follow The Rules | Azure Policy](https://youtu.be/7xhcnxRrXYQ?si=SvyB8WczZhLjxeLD)
+- [How to enforce Azure Naming Convention Using Azure Policies](https://youtu.be/eqNIV9QKflg?si=VG2KDsFagFKctbDD)
+- [If Only I Knew THIS About Azure 5 Years Ago](https://youtu.be/DxwKYvcMud4?si=jLk8b4EmtlzUVcDB)
 - [Inside Azure Governance - You in Control](https://www.youtube.com/watch?v=CHFLgfELV1E)
+- [Livestream: A Gentle Introduction to Azure Policy](https://www.youtube.com/live/AwI9Z_7E7eA?si=1jSWP9CxsyFwD54G)
 - [Microsoft Azure Master Class Part 3 - Governance](https://youtu.be/cIh_Nfl67T0?t=2830)
 - [Organizational Governance and Best Practices for Control](https://www.youtube.com/watch?v=utVRZg0TNu8)
 - [Regain Control with Azure Governance](https://www.youtube.com/watch?v=M2y0QsHLeSs)
@@ -208,21 +205,19 @@ A curated list of AWESOME blogs, videos, tutorials, code, tools, scripts... anyt
 - [Writing DSC Resources for Azure Policy Guest Configuration - For Linux](https://youtu.be/RxnxpZqvEmg)
 
 ### Community Podcasts
-[Back To Top](#Table-Of-Contents)
 
 - [057 - Azure Policy and Azure Key Vault integration](https://ctrlaltazure.com/episodes/057-azure-policy-and-azure-key-vault-integration)
 - [109 - Azure Policy as Code with Jesse Loudon](https://ctrlaltazure.com/episodes/109-azure-policy-as-code)
 - [S01 E16 - Azure Security Podcast - Azure Policy](https://rss.com/podcasts/azsecpodcast/93831/)
 - [S01 E43 - Everything you need to know about Azure Policy](https://rss.com/podcasts/azsecpodcast/350402/)
+- [Episode 349 – The War of the Policies](https://www.msclouditpropodcast.com/episode349/)
 
 ### Community Books
-[Back To Top](#Table-Of-Contents)
 
 - [Policy Design in the Age of Digital Adoption: Explore how PolicyOps can drive Policy as Code adoption in an organization's digital transformation](https://www.amazon.com/Policy-Design-Digital-Adoption-transformation-dp-1801811741/dp/1801811741/?)
 - [Pro Azure Governance and Security: A Comprehensive Guide to Azure Policy, Blueprints, Security Center, and Sentinel](https://www.amazon.com/Pro-Azure-Governance-Security-Comprehensive/dp/1484249097)
 
 ### Community Articles
-[Back To Top](#Table-Of-Contents)
 
 - [AKS Policy Reference Overriding Or Disabling Of Containers Apparmor Profile Should Be Restricted](https://securecloud.blog/2021/11/18/aks-policy-reference-overriding-or-disabling-of-containers-apparmor-profile-should-be-restricted/)
 - [Assign policy definitions from Azure landing zones Terraform module](https://trond.sjovang.no/posts/azure_policy_terraform_alz/)
@@ -256,8 +251,11 @@ A curated list of AWESOME blogs, videos, tutorials, code, tools, scripts... anyt
 - [Azure Policy Definitions for Controlling ARM API versions](https://blog.tyang.org/2022/04/24/policy-definitions-control-arm-api-versions/)
 - [Azure Policy Deploy MS Antimalware Ext For SQL VM](https://blog.tyang.org/2021/10/03/azure-policy-deploy-ms-antimalware-ext-for-sql-vm/)
 - [Azure Policy Enforce Tags For Resource Creation](https://www.cloudcorner.gr/microsoft/azure/azure-policy-enforce-tags-for-resource-creation/)
+- [Azure Policy Exemptions Added to Resource Graph](https://www.cloudsma.com/2023/09/azure-policy-exemptions-resource-graph/)
 - [Azure Policy For Kubernetes Custom Policies On Azure Arc Enabled Kubernetes](https://www.danielstechblog.io/azure-policy-for-kubernetes-custom-policies-on-azure-arc-enabled-kubernetes/)
 - [Azure Policy for Kubernetes: Contraints and ConstraintTemplates](https://blog.baeke.info/2021/03/23/azure-policy-for-kubernetes-contraints-and-constrainttemplates/)
+- [Azure Policy for Kubernetes with AKS](https://medium.com/@alimazad/azure-policy-for-kubernetes-with-aks-e6fc3fb6811d)
+- [Azure Policy Fully Automated Deployment](https://paul-mackinnon.medium.com/azure-policy-fully-automated-deployment-1d6d9f86f97d)
 - [Azure Policy gradual rollout with resource selectors](https://www.seifbassem.com/blogs/posts/azure-policy-resource-selectors/)
 - [Azure Policy ideas for Azure Governance](https://azureis.fun/posts/Azure-Policy-ideas-for-Azure-Governance/)
 - [Azure policy initiatives for Microsoft Defender for Cloud and Microsoft Sentinel workload protections](https://blog.johnjoyner.net/azure-policy-initiatives-for-microsoft-defender-for-cloud-and-microsoft-sentinel-workload-protections/)
@@ -277,6 +275,7 @@ A curated list of AWESOME blogs, videos, tutorials, code, tools, scripts... anyt
 - [Azure Spring Clean: DINE To Automate Your Monitoring Governance With Azure Monitor Metric Alerts](https://jloudon.com/cloud/Azure-Spring-Clean-DINE-to-Automate-your-Monitoring-Governance-with-Azure-Monitor-Metric-Alerts/)
 - [Azure Spring Clean: Replacing Kubernetes Pod Security Policies With Azure Policy On AKS](https://samcogan.com/replacing-kubernetes-pod-security-polices-with-azure-policy-on-aks)
 - [Azure Spring Clean: Using Azure Policy And Security Center For Organizational Governance](https://captainhyperscaler.github.io/community/2021/03/24/azure-spring-clean/)
+- [Azure SQL Database Cost Optimization via Azure Policies](https://medium.com/@ashu.tripathi91/azure-sql-database-cost-optimization-via-azure-policies-2a11b02c828b)
 - [Bypassing policies in Azure](https://dev.to/cse/bypassing-policies-in-azure-29fc)
 - [Build Azure Policy Compliance Workbook](https://www.cloudsma.com/2021/10/build-azure-policy-compliance-workbook/)
 - [Cloud Governance With Azure Policy Part 1](https://jloudon.com/cloud/Cloud-Governance-with-Azure-Policy-Part-1/)
@@ -302,6 +301,7 @@ A curated list of AWESOME blogs, videos, tutorials, code, tools, scripts... anyt
 - [Deploying Azure Policy remediation via Azure Lighthouse with PIM](https://rios.engineer/deploying-azure-policy-remediation-via-azure-lighthouse-with-pim/)
 - [Diagnostic Settings Storage Accounts Event Hub](https://charbelnemnom.com/diagnostic-settings-storage-accounts-event-hub/)
 - [Duplicate Azure Policy Definition and Initiative](https://charbelnemnom.com/duplicate-azure-policy-definition-and-initiative/)
+- [Elevating Privileges Through Azure Policy](https://medium.com/@vladimir.tul/elevating-privileges-through-azure-policy-872298cf673f)
 - [Enable Azure SQL Auditing With Azure Policy](https://charbelnemnom.com/enable-azure-sql-auditing-with-azure-policy/)
 - [Enable FTPS On Azure App Services With Azure Policy](https://charbelnemnom.com/enable-ftps-on-azure-app-services-with-azure-policy/)
 - [Enable HTTPS On Azure App Services With Azure Policy](https://charbelnemnom.com/enable-https-on-azure-app-services-with-azure-policy/)
@@ -338,9 +338,10 @@ A curated list of AWESOME blogs, videos, tutorials, code, tools, scripts... anyt
 - [Lessons Learned Developing A Custom Policy](https://stefanstranger.github.io/2021/01/22/LessonsLearnedDevelopingACustomPolicy/)
 - [Lessons Learned Testing The Configure Backup On VMs Azure Policy](https://adinermie.com/lessons-learned-testing-the-configure-backup-on-vms-azure-policy/)
 - [Looking at Azure Policy resource selectors](https://www.georgeollis.com/azure-policy-resource-selectors/)
-- [Manage Azure Policy with Terraform](https://brendanthompson.com.au/posts/2022/11/manage-azure-policy-with-terraform)
+- [Manage Azure Policy with Terraform](https://brendanthompson.com/posts/2022/11/manage-azure-policy-with-terraform)
 - [Managing Azure Resource Tags Using Azure Policy Modify Effect](https://blog.tyang.org/2020/03/09/managing-azure-resource-tags-using-azure-policy-modify-effect/)
 - [Monitoring Azure Policy Compliance States 2021 Edition](https://blog.tyang.org/2021/12/06/monitoring-azure-policy-compliance-states-2021-edition/)
+- [Natively Monitoring Azure Policy Compliance States in Azure Monitor - 2023 Edition](https://blog.tyang.org/2023/09/30/natively0monitoring-azure-policy-compliance-states-in-azure-monitor-2023-edition/)
 - [Notes On Azure Policy Exemption](https://azsec.azurewebsites.net/2021/12/22/notes-on-azure-policy-exemption/)
 - [November 2020 Update For Azure Diagnostic Settings Policy Definitions](https://blog.tyang.org/2020/11/22/november-2020-update-for-azure-diagnostic-settings-policy-definitions/)
 - [October 2020 Update For Azure Diagnostic Settings Policy Definitions](https://blog.tyang.org/2020/10/12/october-2020-update-for-azure-diagnostic-settings-policy-definitions/)
@@ -350,6 +351,7 @@ A curated list of AWESOME blogs, videos, tutorials, code, tools, scripts... anyt
 - [Policy as Code: Using Azure Bicep to deploy Azure Policies](https://periwalmanish.wordpress.com/2022/08/13/policy-as-code-using-bicep-to-deploy-azure-policies/)
 - [Policy as Code: Using Modules and defining Custom Roles using Azure Bicep](https://periwalmanish.wordpress.com/2022/08/23/policy-as-code-using-modules-and-defining-custom-roles-using-azure-bicep/)
 - [Security Posture Management With Azure Policy And Microsoft Defender For Cloud](https://securecloud.blog/2021/12/17/security-posture-management-with-azure-policy-and-microsoft-defender-for-cloud/)
+- [Securing Azure PaaS Leveraging Azure Policies](https://medium.com/@sjimen11/securing-azure-paas-leveraging-azure-policies-8ea31387d45a)
 - [Talking Azure Policy As Code On CtrlAltAzure Podcast](https://jloudon.com/cloud/Talking-Azure-Policy-as-Code-on-the-CtrlAltAzure-podcast/)
 - [Terraforming Azure Policy](https://adinermie.com/terraforming-azure-policy/)
 - [Test Azure Policies](https://checinski.cloud/test-azure-policies/)
@@ -369,13 +371,14 @@ A curated list of AWESOME blogs, videos, tutorials, code, tools, scripts... anyt
 - [Using Azure Policy to configure your resources](https://manbearpiet.com/posts/applying-guest-configuration-policy/)
 - [Using Azure policy to control workload identity federation](https://blog.identitydigest.com/azuread-mi-federate-policy/)
 - [Using Azure Policy To Implement Tagging Inheritance](https://archiechristopher.co.uk/2022/01/07/using-azure-policy-to-implement-tagging-inheritance/)
+- [Using VM applications and Azure Policy to deploy applications](https://www.georgeollis.com/using-vm-applications-and-azure-policy/)
 - [Using Conftest For Azure Policy For Kubernetes](https://www.danielstechblog.io/using-conftest-for-azure-policy-for-kubernetes/)
 - [VNet peering using Azure Policy](https://rubberduckdev.com/azure-policy-vnet-peering/)
 - [Walkthrough Using Azure Policy To Audit And Enforce Compliance](https://azuredays.com/2020/07/09/walkthrough-using-azure-policy-to-audit-and-enforce-compliance/)
+- [What are Azure Policy Overrides?](https://www.georgeollis.com/what-are-azure-policy-overrides/)
 - [Writing A Custom Azure Policy](https://journeyofthegeek.com/2021/03/07/writing-a-custom-azure-policy/)
 
 ### Community Tools
-[Back To Top](#Table-Of-Contents)
 
 - [AzAdvertizer](https://www.azadvertizer.net/)
 - [AzGovViz](https://github.com/JulianHayward/Azure-MG-Sub-Governance-Reporting)
@@ -385,7 +388,6 @@ A curated list of AWESOME blogs, videos, tutorials, code, tools, scripts... anyt
 - [Search and find Azure Policy Aliases](https://policyalias.mats.codes)
 
 ### Community Repositories
-[Back To Top](#Table-Of-Contents)
 
 - [andrewcluey/terraform-azurerm-policy-definition](https://github.com/andrewcluey/terraform-azurerm-policy-definition)
 - [andrewmatveychuk/azure.policy](https://github.com/andrewmatveychuk/azure.policy)
@@ -417,7 +419,6 @@ A curated list of AWESOME blogs, videos, tutorials, code, tools, scripts... anyt
 - [yangdeal/azure_policy_deployment](https://github.com/yangdeal/azure_policy_deployment)
 
 ### Community Forums
-[Back To Top](#Table-Of-Contents)
 
 - [Reddit - Azure Policy](https://www.reddit.com/search/?q=azure%20policy)
 - [Stack Overflow - Azure Policy](https://stackoverflow.com/questions/tagged/azure-policy)
